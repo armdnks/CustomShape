@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0395122A276D6AE900E56E51 /* WaveShapeVer1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03951229276D6AE900E56E51 /* WaveShapeVer1.swift */; };
+		03951235276D6CA600E56E51 /* WaveShapeVer2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03951234276D6CA600E56E51 /* WaveShapeVer2.swift */; };
+		03951238276D6CB200E56E51 /* WaveShapeVer3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03951237276D6CB200E56E51 /* WaveShapeVer3.swift */; };
+		0395123B276D6CBC00E56E51 /* WaveShapeVer4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0395123A276D6CBC00E56E51 /* WaveShapeVer4.swift */; };
 		03AF2401276A42FD00C4D780 /* CustomShapeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AF2400276A42FD00C4D780 /* CustomShapeApp.swift */; };
 		03AF2403276A42FD00C4D780 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AF2402276A42FD00C4D780 /* ContentView.swift */; };
 		03AF2405276A42FD00C4D780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AF2404276A42FD00C4D780 /* Assets.xcassets */; };
@@ -17,6 +20,9 @@
 
 /* Begin PBXFileReference section */
 		03951229276D6AE900E56E51 /* WaveShapeVer1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveShapeVer1.swift; sourceTree = "<group>"; };
+		03951234276D6CA600E56E51 /* WaveShapeVer2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveShapeVer2.swift; sourceTree = "<group>"; };
+		03951237276D6CB200E56E51 /* WaveShapeVer3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveShapeVer3.swift; sourceTree = "<group>"; };
+		0395123A276D6CBC00E56E51 /* WaveShapeVer4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveShapeVer4.swift; sourceTree = "<group>"; };
 		03AF23FD276A42FD00C4D780 /* CustomShape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomShape.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03AF2400276A42FD00C4D780 /* CustomShapeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapeApp.swift; sourceTree = "<group>"; };
 		03AF2402276A42FD00C4D780 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,6 +47,9 @@
 			isa = PBXGroup;
 			children = (
 				03951229276D6AE900E56E51 /* WaveShapeVer1.swift */,
+				03951234276D6CA600E56E51 /* WaveShapeVer2.swift */,
+				03951237276D6CB200E56E51 /* WaveShapeVer3.swift */,
+				0395123A276D6CBC00E56E51 /* WaveShapeVer4.swift */,
 			);
 			path = WaveShape;
 			sourceTree = "<group>";
@@ -160,10 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0395123B276D6CBC00E56E51 /* WaveShapeVer4.swift in Sources */,
+				03951238276D6CB200E56E51 /* WaveShapeVer3.swift in Sources */,
 				0395122A276D6AE900E56E51 /* WaveShapeVer1.swift in Sources */,
 				03AF2403276A42FD00C4D780 /* ContentView.swift in Sources */,
 				03AF2412276A491000C4D780 /* InvertedRoundedRectangle.swift in Sources */,
 				03AF2401276A42FD00C4D780 /* CustomShapeApp.swift in Sources */,
+				03951235276D6CA600E56E51 /* WaveShapeVer2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
