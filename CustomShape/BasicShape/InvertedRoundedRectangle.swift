@@ -12,19 +12,19 @@ struct InvertedRoundedRectangle: Shape {
     func path(in Rect: CGRect) -> Path {
         
         var path = Path()
-        let width = Rect.width
-        let height = Rect.height
+        let x = Rect.width
+        let y = Rect.height
         
         let cornerRadius: CGFloat = 30
 
         path.move(to: CGPoint(x: 0, y: 0))
-        path.addLine(to: CGPoint(x: width, y: 0))
+        path.addLine(to: CGPoint(x: x, y: 0))
         
-        path.addArc(center: CGPoint(x: width - cornerRadius, y:height), radius: cornerRadius, startAngle: .degrees(0), endAngle: .degrees(270), clockwise: true)
+        path.addArc(center: CGPoint(x: x - cornerRadius, y: y), radius: cornerRadius, startAngle: .degrees(0), endAngle: .degrees(270), clockwise: true)
         
-        path.addArc(center: CGPoint(x: cornerRadius, y:height), radius: cornerRadius, startAngle: .degrees(270), endAngle: .degrees(180), clockwise: true)
+        path.addArc(center: CGPoint(x: cornerRadius, y: y), radius: cornerRadius, startAngle: .degrees(270), endAngle: .degrees(180), clockwise: true)
         
-        path.addLine(to: CGPoint(x: 0, y: height))
+        path.addLine(to: CGPoint(x: 0, y: y))
 
         path.closeSubpath()
 
