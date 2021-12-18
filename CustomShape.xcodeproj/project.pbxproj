@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0395122A276D6AE900E56E51 /* WaveShapeVer1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03951229276D6AE900E56E51 /* WaveShapeVer1.swift */; };
 		03AF2401276A42FD00C4D780 /* CustomShapeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AF2400276A42FD00C4D780 /* CustomShapeApp.swift */; };
 		03AF2403276A42FD00C4D780 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AF2402276A42FD00C4D780 /* ContentView.swift */; };
 		03AF2405276A42FD00C4D780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AF2404276A42FD00C4D780 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03951229276D6AE900E56E51 /* WaveShapeVer1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveShapeVer1.swift; sourceTree = "<group>"; };
 		03AF23FD276A42FD00C4D780 /* CustomShape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomShape.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03AF2400276A42FD00C4D780 /* CustomShapeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapeApp.swift; sourceTree = "<group>"; };
 		03AF2402276A42FD00C4D780 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,9 +37,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		036548F2276D5DA900F60F7B /* WaveShape */ = {
+		03951228276D6ACB00E56E51 /* WaveShape */ = {
 			isa = PBXGroup;
 			children = (
+				03951229276D6AE900E56E51 /* WaveShapeVer1.swift */,
 			);
 			path = WaveShape;
 			sourceTree = "<group>";
@@ -63,7 +66,7 @@
 			children = (
 				03AF2400276A42FD00C4D780 /* CustomShapeApp.swift */,
 				03AF2402276A42FD00C4D780 /* ContentView.swift */,
-				036548F2276D5DA900F60F7B /* WaveShape */,
+				03951228276D6ACB00E56E51 /* WaveShape */,
 				03AF2410276A490600C4D780 /* BasicShape */,
 				03AF2404276A42FD00C4D780 /* Assets.xcassets */,
 				03AF2409276A42FD00C4D780 /* Info.plist */,
@@ -157,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0395122A276D6AE900E56E51 /* WaveShapeVer1.swift in Sources */,
 				03AF2403276A42FD00C4D780 /* ContentView.swift in Sources */,
 				03AF2412276A491000C4D780 /* InvertedRoundedRectangle.swift in Sources */,
 				03AF2401276A42FD00C4D780 /* CustomShapeApp.swift in Sources */,
